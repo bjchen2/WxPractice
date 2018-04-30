@@ -14,7 +14,7 @@
 
 **若要正常使用，需更改：**<br/>
 
-  微信公众平台：公众号URL为：域名/wx（如：http://c683t4.natappfree.cc/wx（/wx是我定义的servlet访问地址），eclipse中好像需要加上项目名:http://c683t4.natappfree.cc/weixin/wx）<br/>
+  微信公众平台：公众号URL为：域名/wx（如：http://c683t4.natappfree.cc/wx （/wx是我定义的servlet访问地址），eclipse中好像需要加上项目名:http://c683t4.natappfree.cc/weixin/wx ）<br/>
   <br/>
   CheckUtil中：token变量(我设置的是：cccxd，若不更改，则需更改微信公众平台的token，反正二者必须一致)<br/>
   <br/>
