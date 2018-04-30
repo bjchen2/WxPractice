@@ -1,5 +1,5 @@
 # WxPractice
-慕课网，微信公众号开发入门练习
+慕课网，微信公众号开发入门练习<br/>
 慕课网微信公众号开发源码，大体写法和视频一样，部分地方以个人理解做了适当更改，参考资料：
     https://www.imooc.com/learn/368
     https://www.imooc.com/learn/401
