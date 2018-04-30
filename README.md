@@ -12,7 +12,7 @@
   公网映射工具（如果有服务器和域名/应用引擎请忽略）：natapp（免费版映射网址会经常发生变化，不能接受的可以花10元/月购买一个隧道）<br/>
 
 
-**若要正常使用，需更改：<br/>
+**若要正常使用，需更改：**<br/>
 
   微信公众平台：公众号URL为：域名/wx（如：http://c683t4.natappfree.cc/wx（/wx是我定义的servlet访问地址），eclipse中好像需要加上项目名:http://c683t4.natappfree.cc/weixin/wx）<br/>
   <br/>
