@@ -12,15 +12,18 @@
   公网映射工具（如果有服务器和域名/应用引擎请忽略）：natapp（免费版映射网址会经常发生变化，不能接受的可以花10元/月购买一个隧道）<br/>
 
 
-正常使用，需要更改：<br/>
+**若要正常使用，需更改：<br/>
 
   微信公众平台：公众号URL为：域名/wx（如：http://c683t4.natappfree.cc/wx（/wx是我定义的servlet访问地址），eclipse中好像需要加上项目名:http://c683t4.natappfree.cc/weixin/wx）<br/>
+  <br/>
   CheckUtil中：token变量(我设置的是：cccxd，若不更改，则需更改微信公众平台的token，反正二者必须一致)<br/>
+  <br/>
   MessageUtil中：NGROK_URL变量（使用公网映射工具获得的域名，或者自己的域名）；THUMB_MEDIA_ID和IMAGE_MEDIA_ID变量（在WxUtilTest中上传图片时返回的mediaId，若已上传，可自行使用微信API查询mediaId）<br/>
+  <br/>
   WxUtil中：APPID（微信的）/APPSECRET（微信的）/BAIDU_APPID/BAIDU_SECRET变量；使用前，先在WxUtilTest方法中调用createMenu方法，不然没有菜单<br/>
 
 
-现在百度不提供百度词典API了，并且翻译API已更新，视频中的使用方式已过时（不可使用），建议直接查看官方文档或阅读我的源码<br/>
+现在百度不提供百度词典API了，并且**翻译API已更新，视频中的使用方式已过时（不可使用）**，建议直接查看官方文档或阅读我的源码<br/>
   百度翻译API申请访问地址：http://api.fanyi.baidu.com/api/trans/product/index<br/>
   百度翻译API文档：http://api.fanyi.baidu.com/api/trans/product/apidoc<br/>
 
