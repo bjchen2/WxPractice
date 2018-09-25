@@ -30,10 +30,10 @@ public class WxUtil {
     //UPLOAD_URL为临时素材上传地址，三天失效（也可上传永久）。
     //ACCESS_TOKEN_URL获取accessToken，有效时长2小时（不可永久，需更新，但不能每次使用都调用，因为一天只能调用2000次，且过度调用会
     // 导致服务不稳定，所以一般是保留在会话中，过期才更新）
-    private static final String APPID = "wxbbf3033f8ef8b911";
-    private static final String APPSECRET = "dd98d7713642ae3725341cceca6f58e1";
-    private static final String BAIDU_APPID = "20180430000152047";
-    private static final String BAIDU_SECRET = "C8Mz6cFbKtYu5ywr9cxl";
+    private static final String APPID = "微信公众号APPID";
+    private static final String APPSECRET = "微信公众号 APPSECRET";
+    private static final String BAIDU_APPID = "百度开放平台 APPID";
+    private static final String BAIDU_SECRET = "百度开放平台 SECRET";
     private static final String ACCESS_TOKEN_URL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET";
     private static final String UPLOAD_URL = "https://api.weixin.qq.com/cgi-bin/media/upload?access_token=ACCESS_TOKEN&type=TYPE";
     private static final String CREATE_MENU_URL = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=ACCESS_TOKEN";
